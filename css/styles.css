@@ -10537,3 +10537,9 @@ td:nth-child(odd) {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 991.99px){
+  .carousel-image {
+    padding-top: 59px;
+  }  
+}
