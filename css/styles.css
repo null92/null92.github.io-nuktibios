@@ -5944,7 +5944,7 @@ a.close.disabled {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 15px;
   left: 0;
   z-index: 15;
   display: flex;
@@ -10228,8 +10228,8 @@ header.masthead .masthead-heading {
   max-width: 100vw;
 }
 .art-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .art-modal .modal-content h2 {
@@ -10249,6 +10249,11 @@ header.masthead .masthead-heading {
 }
 .art-modal .modal-content img {
   margin-bottom: 2rem;
+}
+@media (max-width: 576px) {
+  .art-modal .close-modal {
+    display: none;
+  }
 }
 .art-modal .close-modal {
   position: absolute;
