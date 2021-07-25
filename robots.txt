@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://www.nuktibiosart.com.br/sitemap.xml
+Sitemap: https://nuktibiosart.com.br/sitemap.xml
